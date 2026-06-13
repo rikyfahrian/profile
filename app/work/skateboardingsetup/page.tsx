@@ -13,7 +13,7 @@ export default function Page() {
         </section>
 
         <section className="mt-10">
-          <p className="text-2xl  text-justify">
+          <p className="text-lg sm:text-2xl  text-justify">
             I love skateboarding, but I have noticed one recurring problem: almost every beginner
             gets their setup wrong. Whether its the wrong deck size, mismatched truck width, wheels
             that dont suit their style, or even buying poor-quality boards—it happens constantly.
