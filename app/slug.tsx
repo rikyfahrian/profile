@@ -8,7 +8,7 @@ export default function AnimatedHeroText({ text }: { text: string }) {
   const words = text.split(" ");
 
   return (
-    <p className="text-5xl sm:text-7xl leading-tight flex flex-wrap gap-x-3">
+    <p className="text-5xl sm:text-7xl 2xl:text-8xl leading-tight flex flex-wrap gap-x-3">
       {words.map((word, i) => (
         <motion.span
           key={i}
