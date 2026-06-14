@@ -1,7 +1,7 @@
 /** @format */
 
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import AnimatedHeroText from "./slug";
+import AnimatedHeroText from "./components/slug";
 import { Work } from "./components/work";
 import Link from "next/link";
 

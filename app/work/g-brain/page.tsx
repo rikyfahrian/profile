@@ -20,8 +20,10 @@ export default function Page() {
         </section>
 
         <section className="mt-10">
-          <p className="text-2xl  text-justify">
-            I worked as a frontend intern focused on translating designs into clean, responsive interfaces. Most of my work involved slicing UI, building reusable components, and ensuring layouts stayed consistent across devices.
+          <p className="text-2xl text-justify">
+            I worked as a frontend intern focused on translating designs into clean, responsive
+            interfaces. Most of my work involved slicing UI, building reusable components, and
+            ensuring layouts stayed consistent across devices.
           </p>
         </section>
 
@@ -29,8 +31,10 @@ export default function Page() {
           <h2 className="text-lg font-semibold">Main Project — G-Brain</h2>
 
           <p className="text-neutral-700 max-w-3xl leading-relaxed">
-            G-Brain is an AI-powered career assistant that helps job seekers practice interviews with intelligent feedback and automatically search and apply for relevant job openings. I contributed to the frontend by implementing
-            responsive components, integrating interfaces, and building reusable UI patterns for real workflows.{" "}
+            G-Brain is an AI-powered career assistant that helps job seekers practice interviews
+            with intelligent feedback and automatically search and apply for relevant job openings.
+            I contributed to the frontend by implementing responsive components, integrating
+            interfaces, and building reusable UI patterns for real workflows.{" "}
           </p>
 
           <a href="https://g-brain.co.id/en" target="_blank" className="underline">
@@ -55,11 +59,13 @@ export default function Page() {
           <h2 className="text-lg font-semibold">Tools</h2>
 
           <div className="flex flex-wrap gap-2">
-            {["Next.js", "TypeScript", "Tailwind", "Caprover", "Gitlab", "Clickup", "Sprint"].map((tech) => (
-              <span key={tech} className="border px-3 py-1 rounded-full text-sm">
-                {tech}
-              </span>
-            ))}
+            {["Next.js", "TypeScript", "Tailwind", "Caprover", "Gitlab", "Clickup", "Sprint"].map(
+              (tech) => (
+                <span key={tech} className="border px-3 py-1 rounded-full text-sm">
+                  {tech}
+                </span>
+              ),
+            )}
           </div>
         </section>
       </div>
