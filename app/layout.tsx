@@ -1,6 +1,6 @@
 /** @format */
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 
@@ -12,6 +12,9 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Mohamad Riki Fahrian",
   description: "Frontend Developer",
+};
+
+export const viewport: Viewport = {
   themeColor: "#fafafa",
 };
 
