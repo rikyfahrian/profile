@@ -8,10 +8,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen px-10 py-7 bg-zinc-50 font-sans gap-5">
-      <div className="flex flex-col gap-3 sm:flex sm:flex-row ">
+      <div className="flex flex-col gap-3 md:flex-row ">
         <AnimatedHeroText text="Hi, I'm Riki" />
-        <div className="flex gap-2">
-          <p className="border border-black h-fit rounded-full px-3">Mohamad Riki Fahrian</p>
+        <div className="flex gap-2 text-sm sm:text-lg">
+          <p className="border border-black h-fit rounded-full px-3 ">Mohamad Riki Fahrian</p>
           <p className="border border-black h-fit rounded-full px-3">he, him, his</p>
         </div>
       </div>

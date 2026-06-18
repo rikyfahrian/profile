@@ -12,6 +12,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Mohamad Riki Fahrian",
   description: "Frontend Developer",
+  themeColor: "#fafafa",
 };
 
 export default function RootLayout({
