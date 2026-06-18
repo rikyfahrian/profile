@@ -12,6 +12,33 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Mohamad Riki Fahrian",
   description: "Frontend Developer",
+  keywords: ["Frontend Developer", "Next.js", "React", "TypeScript"],
+  authors: [{ name: "Mohamad Riki Fahrian" }],
+  creator: "Mohamad Riki Fahrian",
+
+  openGraph: {
+    title: "Mohamad Riki Fahrian",
+    description: "Frontend Developer",
+    url: "https://rikyfahrian.vercel.app",
+    siteName: "Mohamad Riki Fahrian",
+    images: [
+      {
+        url: "/metadata.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: "https://rikyfahrian.vercel.app",
+  },
 };
 
 export const viewport: Viewport = {
