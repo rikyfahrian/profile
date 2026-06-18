@@ -8,14 +8,18 @@ import Link from "next/link";
 
 export function Work() {
   return (
-    <div className="items-center self-center">
+    <div className="items-center self-center mt-10">
       <main className="max-w-4xl mx-auto ">
-        <section className="mt-20 grid gap-12 md:grid-cols-2">
+        <section className="grid gap-12 md:grid-cols-2">
           <div>
             <h2 className="text-xl font-semibold mb-4">Work Experience</h2>
             <div className="flex gap-2">
-              <Link href={"https://www.dynamics-ms.com/"} target="_blank">
-                <Image src="/dms.jpeg" alt="dms" width={50} height={50} />
+              <Link
+                href={"https://www.dynamics-ms.com/"}
+                target="_blank"
+                className="hidden sm:block"
+              >
+                <Image src="/dms.jpeg" alt="dms" width={50} height={50} className="rounded-full" />
               </Link>
               <div>
                 <div className="flex gap-7">

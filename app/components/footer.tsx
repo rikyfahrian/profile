@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 const reminders = [
   "Create the things you wish existed.",
   "Are you alive or just existing?",
+  "Create more than consume.",
   "Late start, is a start.",
   "Slow motion is still motion.",
   "Do it tired, do it sad, do it scared, do it anyway.",
@@ -22,14 +23,14 @@ export default function Footer() {
   useEffect(() => {
     const interval = setInterval(() => {
       setQuote(reminders[Math.floor(Math.random() * reminders.length)]);
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="items-center flex flex-col gap-2 py-5 bg-green-600 w-[98%] mx-auto rounded-t-2xl text-white">
-      <p className="text-sm text-white/70">Reminder words:</p>
+      <p className="text-sm text-white/70">[ Reminder words ]</p>
 
       <motion.h3
         key={quote}
@@ -37,7 +38,7 @@ export default function Footer() {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.4 }}
-        className="text-lg font-semibold"
+        className="text-lg font-semibold text-center"
       >
         {quote}
       </motion.h3>

@@ -2,7 +2,7 @@
 
 import AnimatedHeroText from "./components/slug";
 import { Work } from "./components/work";
-import Link from "next/link";
+import { EmailBadge } from "./components/email";
 
 export default function Home() {
   return (
@@ -20,6 +20,8 @@ export default function Home() {
           text={`Obsessed with Beautiful UI, Next.Js & React Specialist. Let's share and connect — based in Jakarta, Indonesia.`}
         />
       </div>
+
+      <EmailBadge />
 
       <Work />
     </div>
