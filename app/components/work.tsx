@@ -22,7 +22,7 @@ export function Work() {
                   <p className="text-xl font-semibold">Frontend Developer</p>
                   <div className="flex gap-1">
                     <p className="px-3 py-1 rounded-full text-sm bg-gray-200 self-start">Remote</p>
-                    <p className="px-3 py-1 rounded-full text-sm bg-green-500 self-start text-green-900">
+                    <p className="px-3 py-1 rounded-full text-sm bg-green-600 self-start text-white">
                       Intern
                     </p>
                   </div>
