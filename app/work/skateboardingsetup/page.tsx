@@ -1,6 +1,6 @@
 /** @format */
 
-import Image from "next/image";
+import ProductImage from "@/app/components/image";
 
 export default function Page() {
   return (
@@ -34,13 +34,7 @@ export default function Page() {
             and I have tested it myself to ensure it works.
           </p>
 
-          <Image
-            src="/image.png"
-            alt="Skateboarding Setup"
-            width={700}
-            height={500}
-            className="rounded-lg object-cover self-center"
-          />
+          <ProductImage />
 
           <a
             href="https://skateboard-setup.vercel.app"
