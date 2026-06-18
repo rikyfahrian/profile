@@ -4,7 +4,7 @@ import ProductImage from "@/app/components/image";
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-zinc-50 font-sans">
+    <main className="min-h-screen">
       <div className="max-w-4xl mx-auto px-6 py-8 ">
         <section className="mt-10 space-y-4 font-semibold">
           <h1 className="text-5xl md:text-6xl tracking-tight">Skateboarding Setup Project</h1>

@@ -29,7 +29,7 @@ export function Work() {
                 </div>
                 <p className="text-sm text-muted-foreground">Dynamics Management Solution</p>
                 <p className="text-sm text-muted-foreground">Aug 2025 - Feb 2026</p>
-                <Link href={"/work/g-brain"} className="text-sm flex underline">
+                <Link href={"/g-brain"} className="text-sm flex underline">
                   Details <ArrowUpRight size={13} />
                 </Link>
               </div>
@@ -43,7 +43,7 @@ export function Work() {
               <p className="text-sm text-muted-foreground">
                 A web app to help (new) skaters find and build their perfect skateboard setup.
               </p>
-              <Link href={"/work/skateboardingsetup"} className="text-sm flex underline">
+              <Link href={"/skateboardingsetup"} className="text-sm flex underline">
                 Details <ArrowUpRight size={13} />
               </Link>
             </div>
