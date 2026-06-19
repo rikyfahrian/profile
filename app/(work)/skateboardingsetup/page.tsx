@@ -1,6 +1,7 @@
 /** @format */
 
 import ProductImage from "@/app/components/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -8,14 +9,21 @@ export default function Page() {
       <div className="max-w-4xl mx-auto px-6 py-8 ">
         <section className="mt-10 space-y-4 font-semibold">
           <h1 className="text-4xl md:text-6xl tracking-tight">Skateboarding Setup Project</h1>
-          <p className="text-neutral-600">June 2026</p>
 
           <div className="flex items-center gap-4 ">
-            <p className="text-md font-semibold">Status: Online</p>
-            <span className="relative inline-flex h-5 w-5">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
-              <span className="relative inline-flex h-3 w-3 inset-1 rounded-full bg-green-500"></span>
-            </span>
+            <p className="text-neutral-600">June 2026</p>
+            <span>-</span>
+            <Link
+              href="https://skateboard-setup.vercel.app"
+              target="_blank"
+              className="flex items-center gap-2 text-sm  border py-1 px-3 rounded-full"
+            >
+              <p>Online</p>
+              <span className="relative inline-flex h-3 w-3">
+                <span className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full inset-0.5 bg-green-500"></span>
+              </span>
+            </Link>
           </div>
         </section>
 
