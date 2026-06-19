@@ -28,7 +28,7 @@ export function EmailBadge() {
 
   return (
     <div className="flex items-center gap-3 text-sm sm:text-lg tracking-tight">
-      <p>Contact →</p>
+      <p>Available for work →</p>
       <div className="relative inline-block">
         {showHint && (
           <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 bg-black text-white text-xs px-2.5 py-1 rounded-md whitespace-nowrap animate-in fade-in slide-in-from-bottom-2 duration-300 after:content-[''] after:absolute after:top-full after:left-1/2 after:-translate-x-1/2 after:border-4 after:border-transparent after:border-t-black">

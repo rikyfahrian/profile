@@ -9,10 +9,14 @@ export default function Page() {
         <section className="mt-10 space-y-4 font-semibold">
           <h1 className="text-5xl md:text-6xl tracking-tight">
             Frontend Developer at Dynamics Management Solution{" "}
-            <span className="text-sm tracking-normal font-normal border py-1 px-3 rounded-full ">
-              <Link href={"https://www.dynamics-ms.com/"} target="_blank">
+            <span className="inline-flex items-center gap-2 text-sm tracking-normal font-normal border py-1 px-3 rounded-full">
+              <Link href="https://www.dynamics-ms.com/" target="_blank">
                 dynamics.ms.com
               </Link>
+              <span className="relative inline-flex h-3 w-3">
+                <span className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full inset-0.5 bg-green-500"></span>
+              </span>
             </span>
           </h1>
 

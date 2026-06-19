@@ -7,9 +7,16 @@ export default function Page() {
     <main className="min-h-screen">
       <div className="max-w-4xl mx-auto px-6 py-8 ">
         <section className="mt-10 space-y-4 font-semibold">
-          <h1 className="text-5xl md:text-6xl tracking-tight">Skateboarding Setup Project</h1>
-
+          <h1 className="text-4xl md:text-6xl tracking-tight">Skateboarding Setup Project</h1>
           <p className="text-neutral-600">June 2026</p>
+
+          <div className="flex items-center gap-4 ">
+            <p className="text-md font-semibold">Status: Online</p>
+            <span className="relative inline-flex h-5 w-5">
+              <span className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
+              <span className="relative inline-flex h-3 w-3 inset-1 rounded-full bg-green-500"></span>
+            </span>
+          </div>
         </section>
 
         <section className="mt-10">
