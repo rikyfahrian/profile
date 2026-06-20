@@ -6,7 +6,7 @@ import { EmailBadge } from "./components/email";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen px-10 py-7 font-sans gap-5">
+    <main className="flex flex-col min-h-screen px-10 py-7 font-sans gap-5">
       <div className="flex flex-col gap-3 md:flex-row ">
         <AnimatedHeroText text="Hi, I'm Riki" />
         <div className="flex gap-2 text-sm sm:text-lg">
@@ -24,6 +24,6 @@ export default function Home() {
       <EmailBadge />
 
       <Work />
-    </div>
+    </main>
   );
 }
