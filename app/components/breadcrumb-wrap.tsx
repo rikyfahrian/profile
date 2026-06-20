@@ -13,14 +13,8 @@ import {
 } from "@/app/components/ui/breadcrumb";
 import React from "react";
 
-const labelMap: Record<string, string> = {
-  dashboard: "Dashboard",
-  settings: "Settings",
-  profile: "Profile",
-};
-
 function formatLabel(segment: string): string {
-  return labelMap[segment] ?? segment.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  return segment.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 export function AppBreadcrumb() {
