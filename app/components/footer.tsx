@@ -29,7 +29,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="items-center flex flex-col gap-2 py-5 bg-green-600 w-[98%] mx-auto rounded-t-2xl text-white">
+    <div className="mx-auto flex w-[98%] flex-col items-center gap-2 rounded-t-2xl bg-green-600 py-5 text-white selection:bg-white selection:text-green-500">
       <p className="text-sm text-white/70">[ Reminder words ]</p>
 
       <motion.h3
@@ -38,7 +38,7 @@ export default function Footer() {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.4 }}
-        className="text-lg font-semibold text-center"
+        className="text-center text-lg font-semibold"
       >
         {quote}
       </motion.h3>
